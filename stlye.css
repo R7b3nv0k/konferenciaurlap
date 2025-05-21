@@ -1,0 +1,115 @@
+ /* Alap test stílus */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+
+  /* Form konténer középre */
+  form {
+    background: white;
+    max-width: 480px;
+    margin: 20px auto;
+    padding: 25px 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+
+  /* Label-ek */
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #222;
+  }
+
+  /* Input mezők */
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="file"] {
+    width: 100%;
+    padding: 8px 12px;
+    margin-top: 6px;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  input[type="file"]:focus {
+    border-color: #3b82f6; /* szép kék */
+    outline: none;
+  }
+
+  /* Submit gomb */
+  input[type="submit"] {
+    margin-top: 25px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+  }
+  input[type="submit"]:hover {
+    background-color: #2563eb;
+  }
+
+  /* Információs szöveg */
+  p {
+    margin-top: 18px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #444;
+  }
+
+  /* Linkek */
+  a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Üzenetek */
+  p[style*="color:red"] {
+    background: #fee2e2;
+    border: 1px solid #fca5a5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    max-width: 480px;
+    margin: 10px auto;
+    font-weight: 600;
+  }
+  p[style*="color:green"] {
+    background: #dcfce7;
+    border: 1px solid #86efac;
+    padding: 10px 15px;
+    border-radius: 5px;
+    max-width: 480px;
+    margin: 10px auto;
+    font-weight: 600;
+  }
+
+  /* Kép megjelenítés */
+  img {
+    display: block;
+    max-width: 200px;
+    margin: 10px auto 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
